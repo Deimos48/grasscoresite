@@ -1,0 +1,94 @@
+.home__wrapper {
+  --headerSize: 60px;
+}
+
+.home__container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.home {
+  width: 100%;
+  min-height: 100%;
+  background: rgb(75, 160, 75);
+}
+
+.home__main {
+  margin-top: 70px;
+  display: flex;
+  padding: 50px 0;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.home__wrapper {
+  margin-bottom: 350px;
+}
+
+.home__left {
+  max-width: 600px;
+  color: #fff;
+}
+
+.home__left h1 {
+  font-size: 42px;
+  line-height: 50px;
+}
+
+.home__left p {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.home__left span {
+  color: rgb(127, 250, 144);
+}
+
+.home__left_btn {
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+
+.section__wrapper {
+  background: rgb(32, 32, 32);
+}
+
+.section__price_wrapper {
+  height: 250px;
+  margin-bottom: 200px;
+  background: url("https://pepeland.net/assets/landing/image/blob_background.svg") 50%/cover;
+}
+
+
+
+@media (max-width: 997px) {
+  .home__main {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px 0;
+  }
+  .home__left {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 557px) {
+  .home__left h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .home__left p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .home__left_btn {
+    font-size: 14px;
+    margin: 10px;
+  }
+}

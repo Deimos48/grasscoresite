@@ -1,0 +1,27 @@
+
+.alert__wrapper {
+  position: fixed;
+  left: calc(50% - 100px);
+  top: 0;
+  transform: translateY(-50px);
+  z-index: 3;
+}
+
+.alert {
+  cursor: pointer;
+  min-width: 200px;
+  min-height: 50px;
+  background: #fff;
+  border-radius: 9px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 10px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+  border: 4px solid rgb(111, 180, 137);
+}
+
+.alert__active {
+  transform: translateY(60px) !important;
+}
